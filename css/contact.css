@@ -1,0 +1,48 @@
+.contact {
+    padding: 6.25rem 1.25rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.875rem;
+    margin: 0.625rem 0;
+    border: 0.0625rem solid #f0e9ff;
+    border-radius: 0.3125rem;
+    padding-left: 1.125rem;
+    font-size: 0.8125rem;
+    background: transparent;
+}
+
+input:focus, textarea:focus {
+    outline: 0;
+}
+
+.halfFlex {
+    display: flex;
+}
+
+.contactFirstName {
+    padding-right: 1.9375rem;
+    flex: 1;
+}
+
+.contactEmail {
+    padding-left: 1.9375rem;
+    flex: 1;
+}
+
+.contactSend {
+    margin-top: 1.875rem;
+}
+
+@media only screen and (max-width: 991px) {
+    .halfFlex {
+        flex-direction: column;
+    }
+
+        .contactFirstName,
+        .contactEmail {
+            padding: 0;
+        }
+   
+}

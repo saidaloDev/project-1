@@ -1,0 +1,585 @@
+/* main styles */
+.main {
+    padding: 6.25rem 1.875rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainImage {
+    text-align: right;
+}
+
+.mainWelcome {
+    color: #797979;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.125rem;
+}
+
+.mainIntroduction {
+    color: #1c44e4;
+    font-size: 3.75rem;
+    font-weight: 500;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.mainPosition {
+    color: #797979;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.mainSocialNetwork a {
+    display: inline-block;
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    color: #8fa1aa;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.mainSocialNetwork a:hover i {
+    color: #1c44e4;
+}
+
+.mainBtn {
+    margin-top: 2.5rem;
+}
+
+.mainBanner {
+    background: url(../images/main-banner.png) no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    min-height: 62.5rem;
+}
+
+/* statictics */
+.statistics {
+    padding-top: 6.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.statisticsItem {
+    background-color: #f8faff;
+    text-align: center;
+    padding: 0.3125rem 0.625rem;
+    margin-right: 1.25rem;
+    width: 9.375rem;
+}
+
+.statisticsTitle {
+    font-size: 1.6875rem;
+    margin-bottom: 0.3125rem;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.statisticsDescription {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #797979;
+}
+
+/* aboutMe */
+.aboutMe {
+    padding: 6.25rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.aboutMe > div {
+    flex: 1;
+}
+
+.aboutMeImage img {
+    width: 90%;
+}
+
+.aboutMeSubtitle {
+    letter-spacing: 0.125rem;
+    font-weight: 500;
+    margin-bottom: 0.625rem;
+    color: #797979;
+}
+
+.aboutMeTitle {
+    margin-top: 0.3125rem;
+    font-size: 2.625rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #1c44e4;
+}
+
+.aboutMeDescription {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #797979;
+    line-height: 1.6875rem;
+}
+
+.aboutMeBtn {
+    margin-top: 2.5rem;
+}
+
+/* services */
+.services {
+    padding-top: 6.25rem;
+}
+
+.serviceCards {
+    padding-top: 6.25rem;
+}
+.serviceCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.serviceCard {
+    display: inline-block;
+    padding: 3.75rem 1.875rem;
+    text-align: center;
+    margin-right: 3%;
+    background-color: #f8faff;
+    box-sizing: border-box;
+    transition: all 0.4s ease 0s;
+}
+
+.serviceCardTitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    text-transform: capitalize;
+    color: #1c44e4;
+}
+
+.serviceCardDescription {
+    font-size: 0.875rem;
+    line-height: 1.6875rem;
+    font-weight: 300;
+    color: #797979;
+}
+
+.serviceCardLink {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #1c44e4;
+    text-decoration: none;
+}
+
+.serviceCard:hover .serviceCardTitle,
+.serviceCard:hover .serviceCardDescription,
+.serviceCard:hover .serviceCardLink {
+    color: #fff;
+}
+
+.serviceCard:hover {
+    background-color: #5f30ff;
+}
+
+/* clients */
+.clients {
+    padding-top: 6.25rem;
+}
+
+.clientItem {
+    display: flex;
+    align-items: center;
+}
+
+.clientItem > div {
+    flex: 1;
+}
+
+.clientItemInfo {
+    padding-top: 3.125rem; 
+    padding-left: 3.125rem;
+}
+
+.clientItemImage img {
+    width: 100%;
+}
+
+.clientItemName {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.clientItemPosition {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+.clientItemReview {
+    font-size: 0.875rem;
+    line-height: 1.6875rem;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+.clientItemRate {
+    color: #ffd804;
+}
+
+.clientItemRate .disabled {
+    color: #aeb9be;
+}
+
+/* portfolio */
+.portfolio {
+    padding: 6.25rem 0;
+}
+
+.portfolioFilters {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 3.125rem;
+}
+
+.portfolioFilters li {
+    display: inline-block;
+    margin-right: 2.5rem;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.portfolioFilters li:hover,
+.portfolioFilters li.active {
+    color: #1345e6;
+}
+
+.portfolioItems {
+    margin-top: 3.125rem;
+    position: relative;
+}
+
+.portfolioItem {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 50%;
+    padding: 0.625rem;
+    box-sizing: border-box;
+}
+
+.portfolioItem1 {
+    padding-left: 0;
+}
+
+.portfolioItem2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.portfolioItem3 {
+    position: absolute;
+    top: 339px;
+    right: 0;
+}
+
+.portfolioItemImage {
+    width: 100%;
+}
+
+.portfolioItemOverplay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(19,69,230,0.9); */
+    /* visibility: hidden; */
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.portfolioItemInfo {
+    position: absolute;
+    bottom: 2.75rem;
+    left: 5rem;
+    color: white;
+    visibility: hidden;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.4s ease 0s;
+}
+
+.portfolioItemInfo a {
+    color: white;
+    text-decoration: none;
+}
+
+.portfolioItem:hover .portfolioItemOverplay {
+    visibility: visible;
+    top: 1.25rem;
+    left: 1.25rem;
+    background-color: rgba(19,69,230,0.9);
+}
+
+.portfolioItem:hover .portfolioItemInfo {
+    visibility: visible;
+    bottom: 2.5rem;
+    left: 3.75rem;
+    opacity: 1;
+}
+
+/* blog styles */
+.blog {
+    padding-top: 6.25rem;
+}
+
+.blogItems {
+    margin-top: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogItem {
+    overflow: hidden;
+    margin-right: 3%;
+    box-sizing: border-box;
+}
+
+.blogItemImage {
+    overflow: hidden;
+}
+
+.blogItemImage img {
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
+}
+
+.blogItemImage:hover img {
+    transform: scale(1.1);
+}
+
+.blogItemInfo {
+    background-color: #f8faff;
+    padding: 1.875rem;
+    color: #797979;
+}
+
+.blogItemMainInfo span {
+    font-size: 0.875rem;
+    font-weight: lighter;
+    margin-right: 1.875rem;
+}
+
+.blogItemInfo i {
+    margin-right: 0.3125rem;
+}
+
+.blogItemTitle {
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.9375rem;
+    font-weight: 700;
+    color: #1c44e4;
+}
+
+.blogItemDescription {
+    font-size: 0.9375rem;
+    line-height: 1.6875rem;
+    font-weight: 300;
+    color: #797979;
+}
+
+.blogItemLearnMore {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: #1c44e4;
+}
+
+.blogItemLearnMore:hover {
+    color: #ed239f;
+    text-decoration: none;
+    /* transition: all 1s ease-in-out; */
+}
+
+.blogItem:hover {
+    box-shadow: 0rem 0.625rem 1.25rem rgba(5,54,77,0.1);
+}
+
+.blogItem:hover .blogItemInfo {
+    background-color: white;
+}
+
+/* partners styles */
+.partners {
+    padding-top: 6.25rem;
+}
+
+.partner {
+    display: inline-block;
+    margin-right: 3.125rem;
+}
+
+@media only screen and (max-width: 991px) {
+    /* main */
+    .mainImage {
+        display: none;
+    }
+
+    .main > div {
+        width: 100%;
+    }
+
+    .main > div {
+        width: 100%;
+    }
+
+    /* statistics  */
+    .statistics {
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+    /* about me */
+    .aboutMe {
+        padding: 1.5rem 0;
+    }
+
+    .aboutMe > div {
+        width: 100%;
+    }
+    
+    .aboutMeImage {
+        display: none;
+    }
+
+    /* service */
+    .services {
+        padding: 1.5rem 0;
+    }
+
+    .serviceCard {
+        width: 45%;
+        margin-bottom: 1.25rem;
+    }
+
+    /* blog */
+    .blog {
+        padding: 1.5rem 0;
+    }
+
+    .blogItem {
+        flex-basis: 45%;
+        margin-bottom: 1.25rem;
+    }
+
+    /* partners */
+    .partners {
+        padding: 1.5rem 0;
+    }
+
+    .partners {
+        flex-direction: column;
+    }
+
+    .partner {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 0.625rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* main */
+
+    .mainBanner {
+        display: none;
+        min-height: auto;
+    }
+
+    .mainBtn {
+        display: none;
+    }
+
+    .mainInfo {
+        font-size: 3rem;
+    }
+
+    /* statistics */
+
+    .statistics {
+        flex-direction: column;
+    }
+
+    .statisticsItem {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+        box-sizing: border-box;
+    }   
+
+    /* service */
+
+    .services {
+        padding: 1.5rem 0;
+    }
+
+    .serviceCards {
+        flex-wrap: wrap;
+    }
+
+    .serviceCard  {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 1.25rem;
+    }
+
+    /* clients */
+
+    .clients {
+        padding: 1.5rem 0;
+    }
+
+    .clientItem {
+        flex-direction: column;
+    }
+
+    .clientItem > div {
+        width: 100%;
+        float: none;
+    }
+
+    /* portfolio  */
+
+    .portfolio {
+        padding: 1.5rem 0;
+    }
+
+    .portfolioItem {
+        width: 100%;
+    }
+
+    .portfolioItem2,
+    .portfolioItem3 {
+        position: static;
+    }
+
+    /* blog */
+
+    .blog {
+        padding: 1.5rem 0;
+    }
+
+    .blogItems {
+        flex-direction: column;
+    }
+
+    .blogItem {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 1.25rem;
+    }
+}
